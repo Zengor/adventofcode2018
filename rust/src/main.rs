@@ -1,5 +1,6 @@
 mod day1;
+mod day2;
 
 fn main() {
-    crate::day1::solve_part_2();
+    crate::day2::part_2();
 }

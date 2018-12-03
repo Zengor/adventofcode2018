@@ -1,6 +1,5 @@
-mod day1;
-mod day2;
+extern crate adventofcode2018;
 
 fn main() {
-    crate::day2::part_2();
+    let input = include_str!("day2/input.txt");
 }

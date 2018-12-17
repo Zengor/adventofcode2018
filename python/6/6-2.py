@@ -7,7 +7,7 @@ class Point:
         return "({},{})".format(self.x,self.y)
         
 data = []
-with open("input.txt") as f:
+with open("../../inputs/day6.txt") as f:
     data = [Point(*map(int,line.split(','))) for line in f.read().splitlines()]
     
 def manhattan_dist(a,b):

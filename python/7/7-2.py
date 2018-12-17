@@ -4,7 +4,7 @@ children_of = defaultdict(list)
 parents_of = defaultdict(list)
 num_nodes = 0
 
-with open("input.txt") as f:    
+with open("../../inputs/day7.txt") as f:    
     for line in f:
         split = line.split()
         node_from = split[1]

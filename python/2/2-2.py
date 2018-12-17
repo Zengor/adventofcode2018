@@ -1,4 +1,4 @@
-with open("input.txt") as f:
+with open("../../inputs/day2.txt") as f:
     data = f.read().strip().splitlines()
 
 answer_found = False
@@ -14,5 +14,3 @@ for i,line_i in enumerate(data):
             print(''.join(i for (i,j) in zip(line_i,line_j) if i==j))
             answer_found = True
             break
-            
-        

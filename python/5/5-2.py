@@ -1,6 +1,6 @@
 import string
 
-with open("input.txt") as f:
+with open("../../inputs/day5.txt") as f:
     polymer = f.read().rstrip()
 
 def will_react(i,j):

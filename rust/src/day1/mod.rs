@@ -1,7 +1,7 @@
 use std::collections::HashSet;
 
 pub fn solve_part_2() {
-    let input = include_str!("input-1.txt");
+    let input = include_str!("../../../inputs/day1.txt");
     
     let mut found = HashSet::new();
     found.insert(0);

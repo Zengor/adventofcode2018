@@ -5,7 +5,7 @@ num_three = 0
 def has_any_of_count(counter, num):
     return any(map((lambda c: c == num), counter.values()))
 
-with open("input.txt") as f:
+with open("../../inputs/day2.txt") as f:
     for line in f:
         c = Counter(line)
         if has_any_of_count(c, 2):

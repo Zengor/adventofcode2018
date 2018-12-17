@@ -28,7 +28,7 @@ def parse_entry(log_entry):
         guard_id = int(split[3][1:])
     return Entry(timestamp, event, guard_id)
 
-with open("input.txt") as f:
+with open("../../inputs/day4.txt") as f:
     entries = map(parse_entry, f.read().splitlines())
     
 guard_id = 0

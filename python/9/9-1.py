@@ -1,5 +1,5 @@
 from collections import deque
-with open("input.txt") as f:
+with open("../../inputs/day9.txt") as f:
     line = f.read().split()
     num_players = int(line[0])
     num_marbles = int(line[6])

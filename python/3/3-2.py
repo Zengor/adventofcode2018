@@ -1,6 +1,6 @@
 from itertools import product
 
-with open("input.txt") as f:
+with open("../../inputs/day3.txt") as f:
     data = f.read().splitlines()
     
 n_ids = len(data)

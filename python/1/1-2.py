@@ -4,7 +4,7 @@ frequency = 0
 found = { 0 }
 result = 0
 
-with open("input-1.txt") as f:
+with open("../../inputs/day1.txt") as f:
     for line in cycle(f):
         frequency += int(line)
         if frequency in found:

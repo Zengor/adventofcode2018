@@ -1,4 +1,4 @@
-with open("input.txt") as f:
+with open("../../inputs/day8.txt") as f:
     data = list(map(int,f.read().split()))
 
 # returns tuple of the total length traversed and the value of the header node 

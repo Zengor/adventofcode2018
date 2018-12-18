@@ -1,5 +1,11 @@
 extern crate adventofcode2018;
 
+use adventofcode2018::*;
+
 fn main() {
-    let input = include_str!("day2/input.txt");
+    // day1::solve_part_2();
+    // day2::part2();
+    day3::part1();
+    day3::part2();
+    day3::part2_overlap_set();
 }

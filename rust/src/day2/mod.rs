@@ -5,6 +5,11 @@
 //     print_result(a, b);
 // }
 
+pub fn part2() {
+    let input = include_str!("../../../inputs/day2.txt").split_whitespace().collect();
+    println!("{}", part_2_run_alt(&input));
+}
+
 pub fn part_2_run<'a>(input: &'a Vec<&str>) -> (&'a str, &'a str) {  
     for i in 0..input.len() {
         for j in i+i..input.len() {
